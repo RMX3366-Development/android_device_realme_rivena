@@ -1,8 +1,7 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
-## from OnePlus 9R (LE2101_14.0.0.604(EX01))
+## from realme GT Exp. Master Edition (RMX3366_14.0.0.1800(CN01))
 
 # ACDB
-odm/etc/acdbdata/Audio_Parameter_Version.txt
 odm/etc/acdbdata/Bluetooth_cal.acdb
 odm/etc/acdbdata/General_cal.acdb
 odm/etc/acdbdata/Global_cal.acdb
@@ -16,91 +15,76 @@ odm/firmware/tfa98xx.cnt
 
 # Camera
 odm/etc/camera/ashdr/ncf_pack.ncf
-odm/etc/camera/ashdr/ncf_pack_imx471.ncf
-odm/etc/camera/ashdr/ncf_pack_imx481.ncf
-odm/etc/camera/ashdr/ncf_pack_imx586.ncf
 odm/etc/camera/darksight/darksight_main.bin
 odm/etc/camera/darksight/darksight_ultrawide.bin
-odm/etc/camera/calibrationOutput_uw.bin
-odm/etc/camera/distortion_result.bin
-odm/lib64/camera/components/com.oneplus.node.cfrsnapshot.so
-odm/lib64/camera/components/com.oneplus.node.cfrvideo.so
-odm/lib64/camera/com.qti.sensormodule.holitech_gc02m1b.bin
-odm/lib64/camera/com.qti.sensormodule.qtech_imx481.bin
-odm/lib64/camera/com.qti.sensormodule.semco_imx586.bin
-odm/lib64/camera/com.qti.sensormodule.shine_gc5035.bin
-odm/lib64/camera/com.qti.sensormodule.truly_imx471.bin
-odm/lib64/camera/com.qti.tuned.holitech_gc02m1b.bin
-odm/lib64/camera/com.qti.tuned.qtech_imx481.bin
-odm/lib64/camera/com.qti.tuned.semco_imx586.bin
-odm/lib64/camera/com.qti.tuned.shine_gc5035.bin
-odm/lib64/camera/com.qti.tuned.truly_imx471.bin
-odm/lib64/camera/com.qti_lemonades.sensor.gc02m1b.so
-odm/lib64/camera/com.qti_lemonades.sensor.gc5035.so
-odm/lib64/camera/com.qti_lemonades.sensor.imx471.so
-odm/lib64/camera/com.qti_lemonades.sensor.imx481.so
-odm/lib64/camera/com.qti_lemonades.sensor.imx586.so
+odm/lib64/camera/com.qti.sensor.imx481_riven.so
+odm/lib64/camera/com.qti.sensor.imx615_riven.so
+odm/lib64/camera/com.qti.sensor.imx766_riven.so
+odm/lib64/camera/com.qti.sensormodule.ofilm_imx481.bin
+odm/lib64/camera/com.qti.sensormodule.qtech_imx615.bin
+odm/lib64/camera/com.qti.sensormodule.shine_ov02b.bin
+odm/lib64/camera/com.qti.sensormodule.sunny_imx766.bin
+odm/lib64/camera/com.qti.sensor.ov02b_riven.so
+odm/lib64/camera/com.qti.tuned.sm8250_ofilm_imx481_21615.bin
+odm/lib64/camera/com.qti.tuned.sm8250_qtech_imx615_21615.bin
+odm/lib64/camera/com.qti.tuned.sm8250_shine_ov02b10_21615.bin
+odm/lib64/camera/com.qti.tuned.sm8250_sunny_imx766_21615.bin
 
 # Fingerprint
-odm/vendor/firmware/gfp9638.b00
-odm/vendor/firmware/gfp9638.b01
-odm/vendor/firmware/gfp9638.b02
-odm/vendor/firmware/gfp9638.b03
-odm/vendor/firmware/gfp9638.b04
-odm/vendor/firmware/gfp9638.b05
-odm/vendor/firmware/gfp9638.b06
-odm/vendor/firmware/gfp9638.b07
-odm/vendor/firmware/gfp9638.mdt
-odm/vendor/firmware/gfp9678.b00
-odm/vendor/firmware/gfp9678.b01
-odm/vendor/firmware/gfp9678.b02
-odm/vendor/firmware/gfp9678.b03
-odm/vendor/firmware/gfp9678.b04
-odm/vendor/firmware/gfp9678.b05
-odm/vendor/firmware/gfp9678.b06
-odm/vendor/firmware/gfp9678.b07
-odm/vendor/firmware/gfp9678.mdt
-
-# Iris
-odm/etc/inparm/irissoft/inParm.lst
-odm/etc/inparm/irissoft/inParm10.txt
-odm/etc/inparm/irissoft/inParm11.txt
-odm/etc/inparm/irissoft/inParm12.txt
-odm/etc/inparm/irissoft/inParm14_a.txt
-odm/etc/inparm/irissoft/inParm14_b.txt
-odm/etc/inparm/irissoft/inParm14_c.txt
-odm/etc/inparm/irissoft/inParm16_center.txt
-odm/etc/inparm/irissoft/inParm16_down.txt
-odm/etc/inparm/irissoft/inParm16_up.txt
-odm/etc/inparm/irissoft/inParm17_center.txt
-odm/etc/inparm/irissoft/inParm17_down.txt
-odm/etc/inparm/irissoft/inParm17_up.txt
-odm/etc/inparm/irissoft/inParm18_center.txt
-odm/etc/inparm/irissoft/inParm18_down.txt
-odm/etc/inparm/irissoft/inParm18_up.txt
-odm/etc/inparm/irissoft/inParm1_center.txt
-odm/etc/inparm/irissoft/inParm1_down.txt
-odm/etc/inparm/irissoft/inParm1_up.txt
-odm/etc/inparm/irissoft/inParm2_center.txt
-odm/etc/inparm/irissoft/inParm2_down.txt
-odm/etc/inparm/irissoft/inParm2_up.txt
-odm/etc/inparm/irissoft/inParm3_center.txt
-odm/etc/inparm/irissoft/inParm3_down.txt
-odm/etc/inparm/irissoft/inParm3_up.txt
-odm/etc/inparm/irissoft/inParm4_center.txt
-odm/etc/inparm/irissoft/inParm4_down.txt
-odm/etc/inparm/irissoft/inParm4_up.txt
-odm/etc/inparm/irissoft/inParm5_center.txt
-odm/etc/inparm/irissoft/inParm5_down.txt
-odm/etc/inparm/irissoft/inParm5_up.txt
-odm/etc/inparm/irissoft/inParm6_center.txt
-odm/etc/inparm/irissoft/inParm6_down.txt
-odm/etc/inparm/irissoft/inParm6_up.txt
-odm/etc/inparm/irissoft/inParm8_a.txt
-odm/etc/inparm/irissoft/inParm8_b.txt
-odm/etc/inparm/irissoft/inParm8_c.txt
-odm/etc/inparm/irissoft/mcfCheck.txt
-odm/etc/irissoft.fw
+odm/vendor/firmware/alipay.b00
+odm/vendor/firmware/alipay.b01
+odm/vendor/firmware/alipay.b02
+odm/vendor/firmware/alipay.b03
+odm/vendor/firmware/alipay.b04
+odm/vendor/firmware/alipay.b05
+odm/vendor/firmware/alipay.b06
+odm/vendor/firmware/alipay.b07
+odm/vendor/firmware/alipay.mdt
+odm/vendor/firmware/antdtx.b00
+odm/vendor/firmware/antdtx.b01
+odm/vendor/firmware/antdtx.b02
+odm/vendor/firmware/antdtx.b03
+odm/vendor/firmware/antdtx.b04
+odm/vendor/firmware/antdtx.b05
+odm/vendor/firmware/antdtx.b06
+odm/vendor/firmware/antdtx.b07
+odm/vendor/firmware/antdtx.mdt
+odm/vendor/firmware/cryptoeng.b00
+odm/vendor/firmware/cryptoeng.b01
+odm/vendor/firmware/cryptoeng.b02
+odm/vendor/firmware/cryptoeng.b03
+odm/vendor/firmware/cryptoeng.b04
+odm/vendor/firmware/cryptoeng.b05
+odm/vendor/firmware/cryptoeng.b06
+odm/vendor/firmware/cryptoeng.b07
+odm/vendor/firmware/cryptoeng.mdt
+odm/vendor/firmware/facereg.b00
+odm/vendor/firmware/facereg.b01
+odm/vendor/firmware/facereg.b02
+odm/vendor/firmware/facereg.b03
+odm/vendor/firmware/facereg.b04
+odm/vendor/firmware/facereg.b05
+odm/vendor/firmware/facereg.b06
+odm/vendor/firmware/facereg.b07
+odm/vendor/firmware/facereg.mdt
+odm/vendor/firmware/fidotap.b00
+odm/vendor/firmware/fidotap.b01
+odm/vendor/firmware/fidotap.b02
+odm/vendor/firmware/fidotap.b03
+odm/vendor/firmware/fidotap.b04
+odm/vendor/firmware/fidotap.b05
+odm/vendor/firmware/fidotap.b06
+odm/vendor/firmware/fidotap.b07
+odm/vendor/firmware/fidotap.mdt
+odm/vendor/firmware/goodixfp.b00
+odm/vendor/firmware/goodixfp.b01
+odm/vendor/firmware/goodixfp.b02
+odm/vendor/firmware/goodixfp.b03
+odm/vendor/firmware/goodixfp.b04
+odm/vendor/firmware/goodixfp.b05
+odm/vendor/firmware/goodixfp.b06
+odm/vendor/firmware/goodixfp.b07
+odm/vendor/firmware/goodixfp.mdt
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.1-service-qti
@@ -108,17 +92,12 @@ vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc
 
 # Sensors
 odm/etc/sensor/config/kona_bu52053nvx_0.json
-odm/etc/sensor/config/kona_qrd_ak991x_0.json
-odm/etc/sensor/config/kona_qrd_alsps.json
 odm/etc/sensor/config/kona_qrd_bmi26x_0.json
 odm/etc/sensor/config/kona_qrd_cct.json
 odm/etc/sensor/config/kona_qrd_cct_rear.json
 odm/etc/sensor/config/kona_qrd_icm4x6xx.json
-odm/etc/sensor/config/kona_qrd_lps22hh_0.json
 odm/etc/sensor/config/kona_qrd_lsm6dso.json
-odm/etc/sensor/config/kona_qrd_mmc56x3x.json
 odm/etc/sensor/config/kona_qrd_sx933x_0.json
-odm/etc/sensor/config/kona_qrd_tcs3408_rear.json
 odm/etc/sensor/sensor_config.json
 
 # WiFi
