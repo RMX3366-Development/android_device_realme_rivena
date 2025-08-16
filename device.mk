@@ -22,11 +22,6 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
-# Device init scripts
-PRODUCT_PACKAGES += \
-    fstab.qcom \
-    fstab.qcom.ramdisk
-
 # LiveDisplay
 $(call soong_config_set,OPLUS_LINEAGE_LIVEDISPLAY_HAL,ENABLE_SE,false)
 
