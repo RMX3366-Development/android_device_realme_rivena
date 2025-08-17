@@ -90,6 +90,10 @@ odm/vendor/firmware/goodixfp.mdt
 vendor/bin/hw/android.hardware.keymaster@4.1-service-qti
 vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc
 
+# NFC
+odm/etc/nfc/libnfc-mtp-SN100.conf_21615:vendor/etc/libnfc-nxp.conf
+odm/etc/nfc/libnfc-nci.conf_21615:vendor/etc/libnfc-nci.conf
+
 # Sensors
 odm/etc/sensor/config/kona_bu52053nvx_0.json
 odm/etc/sensor/config/kona_qrd_bmi26x_0.json
