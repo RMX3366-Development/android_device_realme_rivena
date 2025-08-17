@@ -15,6 +15,17 @@ odm/firmware/tfa98xx.cnt
 
 # Camera
 odm/etc/camera/ashdr/ncf_pack.ncf
+odm/etc/camera/config/camera_unit_config
+odm/etc/camera/config/camera_unit_feature_config.protobuf
+odm/etc/camera/config/imx481_riven
+odm/etc/camera/config/imx615_riven
+odm/etc/camera/config/imx766_riven
+odm/etc/camera/config/oplus_camera_algo_switch_config
+odm/etc/camera/config/oplus_camera_aps_config
+odm/etc/camera/config/oplus_camera_config
+odm/etc/camera/config/oplus_preview_decision_params.json
+odm/etc/camera/config/ov02b_riven
+odm/etc/camera/config/video_beauty_default_config
 odm/etc/camera/darksight/darksight_main.bin
 odm/etc/camera/darksight/darksight_ultrawide.bin
 odm/lib64/camera/com.qti.sensor.imx481_riven.so
