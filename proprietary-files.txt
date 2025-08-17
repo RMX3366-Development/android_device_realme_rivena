@@ -28,6 +28,13 @@ odm/etc/camera/config/ov02b_riven
 odm/etc/camera/config/video_beauty_default_config
 odm/etc/camera/darksight/darksight_main.bin
 odm/etc/camera/darksight/darksight_ultrawide.bin
+odm/etc/camera/anc_cl_kernel.cache
+odm/etc/camera/CameraHWConfiguration.config
+odm/etc/camera/distortionParams.bin
+odm/etc/camera/dualcal_golden.bin
+odm/etc/camera/license_release_fdc.lic
+odm/etc/camera/model_fdc.data
+odm/etc/camera/settings_fdc.txt
 odm/lib64/camera/com.qti.sensor.imx481_riven.so
 odm/lib64/camera/com.qti.sensor.imx615_riven.so
 odm/lib64/camera/com.qti.sensor.imx766_riven.so
