@@ -24,8 +24,8 @@ PRODUCT_MODEL := RMX3366
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="RMX3366-user 14 UKQ1.230924.001 R.1d262cc-66b8f-9291e release-keys" \
-    BuildFingerprint=realme/RMX3366/RE546F:14/UKQ1.230924.001/R.1d262cc-66b8f-9291e:user/release-keys \
+    BuildDesc="RMX3366-user 14 UKQ1.230924.001 R.1ed3ace-cfb71-ef948 release-keys" \
+    BuildFingerprint=realme/RMX3366/RE546F:14/UKQ1.230924.001/R.1ed3ace-cfb71-ef948:user/release-keys \
     DeviceName=RE546F \
     DeviceProduct=RMX3366 \
     SystemDevice=RE546F \
