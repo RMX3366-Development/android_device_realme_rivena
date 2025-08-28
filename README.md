@@ -15,4 +15,4 @@
 
 
 ## Device picture
-![realme GT Exp. Master Edition](https://fdn2.gsmarena.com/vv/pics/realme/realme-gt-master-explorer-1.jpg "realme GT Exp. Master Edition")
+![realme GT Exp. Master Edition](https://static.realme.net/v2/realme-gt-riven-a/images/specs/2-117d7ac314.png "realme GT Exp. Master Edition")
