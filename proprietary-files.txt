@@ -92,5 +92,10 @@ odm/etc/sensor/config/kona_qrd_lsm6dso.json
 odm/etc/sensor/config/kona_qrd_sx933x_0.json
 odm/etc/sensor/sensor_config.json
 
+# Touchscreen firmware
+odm/firmware/tp/21615/FW_S6SY792_SAMSUNG.bin
+odm/firmware/tp/21615/FW_S6SY792_SAMSUNG_FAE.bin
+odm/firmware/tp/21615/LIMIT_S6SY792_SAMSUNG.img
+
 # WiFi
 odm/etc/wifi/bdwlan.elf
