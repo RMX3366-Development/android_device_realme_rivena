@@ -48,6 +48,12 @@ odm/lib64/camera/com.qti.tuned.sm8250_qtech_imx615_21615.bin
 odm/lib64/camera/com.qti.tuned.sm8250_shine_ov02b10_21615.bin
 odm/lib64/camera/com.qti.tuned.sm8250_sunny_imx766_21615.bin
 
+# Charger firmware
+odm/firmware/fastchg/21615/charging_thermal_config_default.txt
+odm/firmware/fastchg/21615/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/charging_thermal_config_default.txt
+odm/firmware/fastchg/smart_chg_config_table.txt
+
 # Fingerprint
 odm/vendor/firmware/antdtx.b00
 odm/vendor/firmware/antdtx.b01
