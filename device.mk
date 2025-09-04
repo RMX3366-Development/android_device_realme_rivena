@@ -48,7 +48,8 @@ PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResTarget \
-    OPlusSystemUIResTarget
+    OPlusSystemUIResTarget \
+    OPlusWifiResTarget
 
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 30
