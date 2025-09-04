@@ -41,7 +41,7 @@ void vendor_load_properties() {
 
     if (prjname == 21615) { // rivena (真我GT 大师探索版)
         OverrideProperty("ro.product.product.model", "RMX3366");
-        OverrideProperty("ro.product.marketname", "realme GT Exp. Master Edition");
+        OverrideProperty("ro.product.marketname", "realme GT Master Exploratory");
     } else {
         LOG(ERROR) << "Unexpected project version: " << prjname;
     }

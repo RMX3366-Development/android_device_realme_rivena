@@ -1,9 +1,9 @@
 # Bluetooth
-bluetooth.device.default_name=realme GT Exp. Master Edition
+bluetooth.device.default_name=realme GT Master Exploratory
 
 # Crypto
 ro.crypto.dm_default_key.options_format.version=2
 ro.crypto.volume.metadata.method=dm-default-key
 
 # USB
-vendor.usb.product_string=realme GT Exp. Master Edition
+vendor.usb.product_string=realme GT Master Exploratory
