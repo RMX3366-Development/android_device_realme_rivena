@@ -5,7 +5,9 @@
 #
 
 # A/B
+ifeq ($(TARGET_AB_DEVICE),true)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
+endif
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal

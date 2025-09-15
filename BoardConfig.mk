@@ -9,6 +9,9 @@ include device/realme/sm8250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/realme/rivena
 
+# A/B decision
+TARGET_AB_DEVICE := false
+
 # Display
 TARGET_SCREEN_DENSITY := 450
 
