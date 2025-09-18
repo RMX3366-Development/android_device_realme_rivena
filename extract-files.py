@@ -4,6 +4,12 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+from extract_utils.fixups_blob import (
+    BlobFixupCtx,
+    File,
+    blob_fixup,
+    blob_fixups_user_type,
+)
 from extract_utils.main import (
     ExtractUtils,
     ExtractUtilsModule,
@@ -13,9 +19,13 @@ namespace_imports = [
     'vendor/realme/sm8250-common',
 ]
 
+blob_fixups: blob_fixups_user_type = {
+}  # fmt: skip
+
 module = ExtractUtilsModule(
     'rivena',
     'realme',
+    blob_fixups=blob_fixups,
     namespace_imports=namespace_imports,
 )
 
