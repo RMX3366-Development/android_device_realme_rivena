@@ -68,6 +68,11 @@ def blob_fixup_nop_call(
         break
 
 blob_fixups: blob_fixups_user_type = {
+    'vendor/etc/libnfc-nci.conf': blob_fixup()
+        .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
+    'vendor/etc/libnfc-nxp.conf': blob_fixup()
+        .regex_replace('(NXPLOG_.*_LOGLEVEL)=0x03', '\\1=0x02')
+        .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
