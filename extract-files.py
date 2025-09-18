@@ -16,7 +16,9 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
+    'hardware/oplus',
     'vendor/realme/sm8250-common',
+    'vendor/qcom/opensource/display',
 ]
 
 blob_fixups: blob_fixups_user_type = {
