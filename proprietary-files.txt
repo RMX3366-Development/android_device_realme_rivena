@@ -10,6 +10,11 @@ odm/etc/acdbdata/Hdmi_cal.acdb
 odm/etc/acdbdata/Headset_cal.acdb
 odm/etc/acdbdata/Speaker_cal.acdb
 
+# ADSP modules
+odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel_21615.so
+odm/lib/rfsa/adsp/libarcsoft_hdrplus_se_hvx_skel_21615.so
+odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_21615.so
+
 # Audio firmware
 odm/firmware/tfa98xx.cnt
 
