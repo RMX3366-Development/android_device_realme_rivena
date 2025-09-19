@@ -33,4 +33,7 @@
     <!-- Margin on the bottom of the charging indicator on Keyguard -->
     <dimen name="keyguard_indication_margin_bottom">350px</dimen>
 
+    <!-- Maximum vertical offset of statusbar for burn-in protection -->
+    <dimen name="status_bar_offset_max_y">0dp</dimen>
+
 </resources>
