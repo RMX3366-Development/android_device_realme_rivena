@@ -12,6 +12,9 @@ DEVICE_PATH := device/realme/rivena
 # A/B decision
 TARGET_AB_DEVICE := false
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := RE546F,rivena
+
 # Display
 TARGET_SCREEN_DENSITY := 450
 
