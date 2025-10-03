@@ -839,6 +839,11 @@ odm/firmware/fastchg/smart_chg_config_table.txt
 vendor/etc/ltm_config_samsung_SOFE03F_dsc_cmd_mode_panel.xml
 vendor/etc/qdcm_calib_data_samsung_SOFE03F_dsc_cmd_mode_panel.xml
 
+# Display eye protection data
+odm/etc/samsung1024_sofe03f_colorful_eyeprotect_data.xml
+odm/etc/samsung1024_sofe03f_eyeprotect_data.xml
+odm/etc/samsung1024_sofe03f_srgb_eyeprotect_data.xml
+
 # Fingerprint
 odm/vendor/firmware/antdtx.b00
 odm/vendor/firmware/antdtx.b01
