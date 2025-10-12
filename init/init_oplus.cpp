@@ -38,6 +38,13 @@ void OverrideProperty(const char* name, const char* value) {
  * after the original property has been set.
  */
 void vendor_load_properties() {
+    auto prjname = std::stoi(GetProperty("ro.boot.prjname", "0"));
+
+    if (prjname == 21615) {
+        OverrideProperty("ro.product.product.model", "RMX3366");
+    } else {
+        LOG(ERROR) << "Unexpected project name: " << prjname;
+    }
 
     if (std::string content; ReadFileToString("/proc/devinfo/ddr_type", &content)) {
         OverrideProperty("ro.boot.ddr_type", Split(Trim(content), "\t").back().c_str());

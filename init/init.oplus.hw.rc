@@ -3,3 +3,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+
+# rivena
+on property:ro.boot.prjname=21615
+    setprop ro.boot.hardware.revision "CN"
