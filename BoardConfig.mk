@@ -7,19 +7,7 @@
 DEVICE_PATH := device/realme/rivena
 
 # A/B
-AB_OTA_UPDATER := true
-
-AB_OTA_PARTITIONS += \
-    boot \
-    dtbo \
-    odm \
-    product \
-    recovery \
-    system \
-    system_ext \
-    vbmeta \
-    vbmeta_system \
-    vendor
+AB_OTA_UPDATER := false
 
 # Architecture
 TARGET_ARCH := arm64
