@@ -42,6 +42,7 @@ void vendor_load_properties() {
 
     if (prjname == 21615) {
         OverrideProperty("ro.product.product.model", "RMX3366");
+        OverrideProperty("ro.product.marketname", "realme GT Master Explorer");
     } else {
         LOG(ERROR) << "Unexpected project name: " << prjname;
     }
