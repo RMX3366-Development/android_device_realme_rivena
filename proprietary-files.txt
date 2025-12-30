@@ -477,6 +477,11 @@ odm/etc/camera/settings_fdc.txt
 odm/etc/camera/wide.bin
 
 # Camera firmware
+odm/vendor/firmware/ois_bu63169.coeff
+odm/vendor/firmware/ois_bu63169.prog
+odm/vendor/firmware/ois_bu63169_sec.coeff
+odm/vendor/firmware/ois_bu63169_sec.prog
+odm/vendor/firmware/ois_sem1215s_19066_dvt.bin
 vendor/firmware/CAMERA_ICP.elf
 
 # Camera sensors
