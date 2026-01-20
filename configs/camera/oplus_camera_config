@@ -125,7 +125,7 @@
   "VendorTag": "com.oplus.feature.ai.enhancement.video.support",
   "Type": "Byte",
   "Count": "1",
-  "Value": "1"
+  "Value": "0"
 },
 
 {
@@ -335,7 +335,7 @@
   "VendorTag": "com.oplus.feature.portrait.support",
   "Type": "Byte",
   "Count": "1",
-  "Value": "1"
+  "Value": "0"
 },
 
 {
