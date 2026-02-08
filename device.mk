@@ -40,6 +40,9 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget
 
+# Oplus camera
+$(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
