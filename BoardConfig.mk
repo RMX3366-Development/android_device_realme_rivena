@@ -37,5 +37,8 @@ BOARD_SUPER_PARTITION_SIZE := 10200547328
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/fstab.qcom
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
+# SEPolicy
+include $(DEVICE_PATH)/sepolicy/SEPolicy.mk
+
 # Include the proprietary files BoardConfig.
 include vendor/realme/rivena/BoardConfigVendor.mk
